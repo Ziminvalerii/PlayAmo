@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FF4ABB0290972A600090C9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4ABAF290972A600090C9B /* AppDelegate.swift */; };
+		9FF4ABB2290972A600090C9B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4ABB1290972A600090C9B /* GameScene.sks */; };
+		9FF4ABB4290972A600090C9B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4ABB3290972A600090C9B /* Actions.sks */; };
+		9FF4ABB6290972A600090C9B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4ABB5290972A600090C9B /* GameScene.swift */; };
+		9FF4ABB8290972A600090C9B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4ABB7290972A600090C9B /* GameViewController.swift */; };
+		9FF4ABBB290972A600090C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4ABB9290972A600090C9B /* Main.storyboard */; };
+		9FF4ABBD290972AA00090C9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4ABBC290972AA00090C9B /* Assets.xcassets */; };
+		9FF4ABC0290972AA00090C9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4ABBE290972AA00090C9B /* LaunchScreen.storyboard */; };
+		9FF4ABCA290972AB00090C9B /* PlayAmoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4ABC9290972AB00090C9B /* PlayAmoTests.swift */; };
+		9FF4ABD4290972AB00090C9B /* PlayAmoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4ABD3290972AB00090C9B /* PlayAmoUITests.swift */; };
+		9FF4ABD6290972AB00090C9B /* PlayAmoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4ABD5290972AB00090C9B /* PlayAmoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FF4ABC6290972AB00090C9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FF4ABA4290972A600090C9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FF4ABAB290972A600090C9B;
+			remoteInfo = PlayAmo;
+		};
+		9FF4ABD0290972AB00090C9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FF4ABA4290972A600090C9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FF4ABAB290972A600090C9B;
+			remoteInfo = PlayAmo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FF4ABAC290972A600090C9B /* PlayAmo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayAmo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF4ABAF290972A600090C9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FF4ABB1290972A600090C9B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9FF4ABB3290972A600090C9B /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		9FF4ABB5290972A600090C9B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9FF4ABB7290972A600090C9B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9FF4ABBA290972A600090C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FF4ABBC290972AA00090C9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FF4ABBF290972AA00090C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FF4ABC5290972AB00090C9B /* PlayAmoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayAmoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF4ABC9290972AB00090C9B /* PlayAmoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAmoTests.swift; sourceTree = "<group>"; };
+		9FF4ABCF290972AB00090C9B /* PlayAmoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayAmoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF4ABD3290972AB00090C9B /* PlayAmoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAmoUITests.swift; sourceTree = "<group>"; };
+		9FF4ABD5290972AB00090C9B /* PlayAmoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAmoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FF4ABA9290972A600090C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF4ABC2290972AB00090C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF4ABCC290972AB00090C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FF4ABA3290972A600090C9B = {
+			isa = PBXGroup;
+			children = (
+				9FF4ABAE290972A600090C9B /* PlayAmo */,
+				9FF4ABC8290972AB00090C9B /* PlayAmoTests */,
+				9FF4ABD2290972AB00090C9B /* PlayAmoUITests */,
+				9FF4ABAD290972A600090C9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FF4ABAD290972A600090C9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FF4ABAC290972A600090C9B /* PlayAmo.app */,
+				9FF4ABC5290972AB00090C9B /* PlayAmoTests.xctest */,
+				9FF4ABCF290972AB00090C9B /* PlayAmoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FF4ABAE290972A600090C9B /* PlayAmo */ = {
+			isa = PBXGroup;
+			children = (
+				9FF4ABAF290972A600090C9B /* AppDelegate.swift */,
+				9FF4ABB1290972A600090C9B /* GameScene.sks */,
+				9FF4ABB3290972A600090C9B /* Actions.sks */,
+				9FF4ABB5290972A600090C9B /* GameScene.swift */,
+				9FF4ABB7290972A600090C9B /* GameViewController.swift */,
+				9FF4ABB9290972A600090C9B /* Main.storyboard */,
+				9FF4ABBC290972AA00090C9B /* Assets.xcassets */,
+				9FF4ABBE290972AA00090C9B /* LaunchScreen.storyboard */,
+			);
+			path = PlayAmo;
+			sourceTree = "<group>";
+		};
+		9FF4ABC8290972AB00090C9B /* PlayAmoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FF4ABC9290972AB00090C9B /* PlayAmoTests.swift */,
+			);
+			path = PlayAmoTests;
+			sourceTree = "<group>";
+		};
+		9FF4ABD2290972AB00090C9B /* PlayAmoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FF4ABD3290972AB00090C9B /* PlayAmoUITests.swift */,
+				9FF4ABD5290972AB00090C9B /* PlayAmoUITestsLaunchTests.swift */,
+			);
+			path = PlayAmoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FF4ABAB290972A600090C9B /* PlayAmo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FF4ABD9290972AB00090C9B /* Build configuration list for PBXNativeTarget "PlayAmo" */;
+			buildPhases = (
+				9FF4ABA8290972A600090C9B /* Sources */,
+				9FF4ABA9290972A600090C9B /* Frameworks */,
+				9FF4ABAA290972A600090C9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayAmo;
+			productName = PlayAmo;
+			productReference = 9FF4ABAC290972A600090C9B /* PlayAmo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FF4ABC4290972AB00090C9B /* PlayAmoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FF4ABDC290972AB00090C9B /* Build configuration list for PBXNativeTarget "PlayAmoTests" */;
+			buildPhases = (
+				9FF4ABC1290972AB00090C9B /* Sources */,
+				9FF4ABC2290972AB00090C9B /* Frameworks */,
+				9FF4ABC3290972AB00090C9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FF4ABC7290972AB00090C9B /* PBXTargetDependency */,
+			);
+			name = PlayAmoTests;
+			productName = PlayAmoTests;
+			productReference = 9FF4ABC5290972AB00090C9B /* PlayAmoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FF4ABCE290972AB00090C9B /* PlayAmoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FF4ABDF290972AB00090C9B /* Build configuration list for PBXNativeTarget "PlayAmoUITests" */;
+			buildPhases = (
+				9FF4ABCB290972AB00090C9B /* Sources */,
+				9FF4ABCC290972AB00090C9B /* Frameworks */,
+				9FF4ABCD290972AB00090C9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FF4ABD1290972AB00090C9B /* PBXTargetDependency */,
+			);
+			name = PlayAmoUITests;
+			productName = PlayAmoUITests;
+			productReference = 9FF4ABCF290972AB00090C9B /* PlayAmoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FF4ABA4290972A600090C9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					9FF4ABAB290972A600090C9B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					9FF4ABC4290972AB00090C9B = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 9FF4ABAB290972A600090C9B;
+					};
+					9FF4ABCE290972AB00090C9B = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 9FF4ABAB290972A600090C9B;
+					};
+				};
+			};
+			buildConfigurationList = 9FF4ABA7290972A600090C9B /* Build configuration list for PBXProject "PlayAmo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FF4ABA3290972A600090C9B;
+			productRefGroup = 9FF4ABAD290972A600090C9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FF4ABAB290972A600090C9B /* PlayAmo */,
+				9FF4ABC4290972AB00090C9B /* PlayAmoTests */,
+				9FF4ABCE290972AB00090C9B /* PlayAmoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FF4ABAA290972A600090C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF4ABBB290972A600090C9B /* Main.storyboard in Resources */,
+				9FF4ABB2290972A600090C9B /* GameScene.sks in Resources */,
+				9FF4ABBD290972AA00090C9B /* Assets.xcassets in Resources */,
+				9FF4ABC0290972AA00090C9B /* LaunchScreen.storyboard in Resources */,
+				9FF4ABB4290972A600090C9B /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF4ABC3290972AB00090C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF4ABCD290972AB00090C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FF4ABA8290972A600090C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF4ABB6290972A600090C9B /* GameScene.swift in Sources */,
+				9FF4ABB8290972A600090C9B /* GameViewController.swift in Sources */,
+				9FF4ABB0290972A600090C9B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF4ABC1290972AB00090C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF4ABCA290972AB00090C9B /* PlayAmoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF4ABCB290972AB00090C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF4ABD6290972AB00090C9B /* PlayAmoUITestsLaunchTests.swift in Sources */,
+				9FF4ABD4290972AB00090C9B /* PlayAmoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FF4ABC7290972AB00090C9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FF4ABAB290972A600090C9B /* PlayAmo */;
+			targetProxy = 9FF4ABC6290972AB00090C9B /* PBXContainerItemProxy */;
+		};
+		9FF4ABD1290972AB00090C9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FF4ABAB290972A600090C9B /* PlayAmo */;
+			targetProxy = 9FF4ABD0290972AB00090C9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FF4ABB9290972A600090C9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FF4ABBA290972A600090C9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FF4ABBE290972AA00090C9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FF4ABBF290972AA00090C9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FF4ABD7290972AB00090C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FF4ABD8290972AB00090C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FF4ABDA290972AB00090C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62C374FX49;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.galasoft.PlayAmo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FF4ABDB290972AB00090C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62C374FX49;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.galasoft.PlayAmo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FF4ABDD290972AB00090C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62C374FX49;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.galasoft.PlayAmoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayAmo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlayAmo";
+			};
+			name = Debug;
+		};
+		9FF4ABDE290972AB00090C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62C374FX49;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.galasoft.PlayAmoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayAmo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlayAmo";
+			};
+			name = Release;
+		};
+		9FF4ABE0290972AB00090C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62C374FX49;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.galasoft.PlayAmoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayAmo;
+			};
+			name = Debug;
+		};
+		9FF4ABE1290972AB00090C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62C374FX49;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.galasoft.PlayAmoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayAmo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FF4ABA7290972A600090C9B /* Build configuration list for PBXProject "PlayAmo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF4ABD7290972AB00090C9B /* Debug */,
+				9FF4ABD8290972AB00090C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FF4ABD9290972AB00090C9B /* Build configuration list for PBXNativeTarget "PlayAmo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF4ABDA290972AB00090C9B /* Debug */,
+				9FF4ABDB290972AB00090C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FF4ABDC290972AB00090C9B /* Build configuration list for PBXNativeTarget "PlayAmoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF4ABDD290972AB00090C9B /* Debug */,
+				9FF4ABDE290972AB00090C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FF4ABDF290972AB00090C9B /* Build configuration list for PBXNativeTarget "PlayAmoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF4ABE0290972AB00090C9B /* Debug */,
+				9FF4ABE1290972AB00090C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FF4ABA4290972A600090C9B /* Project object */;
+}
