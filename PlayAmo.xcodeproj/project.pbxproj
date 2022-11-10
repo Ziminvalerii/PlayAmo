@@ -7,6 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65DFC716729D4A6B7D3D1E07 /* Pods_PlayAmo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E508DFDD09883FEA4FD535BC /* Pods_PlayAmo.framework */; };
+		9F056D61290A5F8C00AB7A84 /* GameSceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F056D60290A5F8C00AB7A84 /* GameSceneManager.swift */; };
+		9F056D64290A5FE400AB7A84 /* Touchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F056D63290A5FE400AB7A84 /* Touchable.swift */; };
+		9F056D67290A618F00AB7A84 /* BallNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F056D66290A618F00AB7A84 /* BallNode.swift */; };
+		9F056D6A290AA77A00AB7A84 /* PhysicCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F056D69290AA77A00AB7A84 /* PhysicCategory.swift */; };
+		9F056D6E290B247200AB7A84 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F056D6D290B247200AB7A84 /* backgroundMusic.mp3 */; };
+		9F056D72290B284400AB7A84 /* whoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F056D71290B284400AB7A84 /* whoosh.mp3 */; };
+		9F0C705E291808430045CC92 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C705D291808430045CC92 /* ConnectionManager.swift */; };
+		9F0C706129184B0C0045CC92 /* UIAplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C706029184B0C0045CC92 /* UIAplication.swift */; };
+		9F0C7064291853A10045CC92 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C7063291853A10045CC92 /* LoaderViewController.swift */; };
+		9F2A37DC291A5D4A00DCF3F5 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2A37DB291A5D4A00DCF3F5 /* Defaults.swift */; };
+		9F2A37DE291A62AC00DCF3F5 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2A37DD291A62AC00DCF3F5 /* UIView.swift */; };
+		9F2A37E2291A757900DCF3F5 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2A37E1291A757900DCF3F5 /* HomeView.xib */; };
+		9F2A37E4291A784600DCF3F5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2A37E3291A784600DCF3F5 /* HomeView.swift */; };
+		9F441CCB291B9D7F008CBE0C /* WaitingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F441CCA291B9D7F008CBE0C /* WaitingView.xib */; };
+		9F441CCD291B9EE6008CBE0C /* WaitingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F441CCC291B9EE6008CBE0C /* WaitingView.swift */; };
+		9F441CD0291BCDFB008CBE0C /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F441CCF291BCDFB008CBE0C /* PrivacyPolicyViewController.swift */; };
+		9F5A0DF82917D6B7009F2593 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5A0DF72917D6B7009F2593 /* GameOverView.swift */; };
+		9F5D642F2917BFF400937136 /* GameOverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F5D642E2917BFF400937136 /* GameOverView.xib */; };
+		9F5F061F291AD614007D7F21 /* BonusPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F061E291AD614007D7F21 /* BonusPresenter.swift */; };
+		9F5F0621291AD62C007D7F21 /* BonusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F0620291AD62C007D7F21 /* BonusViewController.swift */; };
+		9F5F0623291ADAE0007D7F21 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F0622291ADAE0007D7F21 /* Date.swift */; };
+		9F7AED8F291951BB00DE3C95 /* winSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F7AED8D291951BA00DE3C95 /* winSound.mp3 */; };
+		9F7AED90291951BB00DE3C95 /* failureSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F7AED8E291951BB00DE3C95 /* failureSound.mp3 */; };
+		9F7AED94291A590D00DE3C95 /* BuyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7AED92291A590C00DE3C95 /* BuyView.xib */; };
+		9F7AED95291A590D00DE3C95 /* BuyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7AED93291A590C00DE3C95 /* BuyView.swift */; };
+		9F944948290FC5C900AB4FB0 /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F944947290FC5C900AB4FB0 /* UPCarouselFlowLayout.swift */; };
+		9FA34D0D2909DE75000FC589 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA34D0C2909DE75000FC589 /* AudioManager.swift */; };
+		9FA34D0F290A5066000FC589 /* GamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA34D0E290A5066000FC589 /* GamePresenter.swift */; };
+		9FA34D14290A57D2000FC589 /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA34D13290A57D2000FC589 /* SettingsPresenter.swift */; };
+		9FA34D16290A5824000FC589 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA34D15290A5824000FC589 /* SettingsViewController.swift */; };
+		9FA34D18290A5856000FC589 /* SliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA34D17290A5856000FC589 /* SliderTableViewCell.swift */; };
+		9FA34D1A290A5869000FC589 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA34D19290A5869000FC589 /* SwitchTableViewCell.swift */; };
+		9FCB8498291BFC3800A5AF76 /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB8497291BFC3800A5AF76 /* ButtonTableViewCell.swift */; };
+		9FCC63A3291526E100DD0403 /* pongsound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FCC63A2291526E100DD0403 /* pongsound.mp3 */; };
+		9FCC63A529152A1100DD0403 /* waterSplash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FCC63A429152A1100DD0403 /* waterSplash.mp3 */; };
+		9FCC63A729152B4600DD0403 /* waterSplosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FCC63A629152B4600DD0403 /* waterSplosh.mp3 */; };
+		9FCC63A9291533F000DD0403 /* water-splash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FCC63A8291533F000DD0403 /* water-splash.mp3 */; };
+		9FDE8ACD2909D54700C68747 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDE8ACC2909D54700C68747 /* BaseViewController.swift */; };
+		9FDE8ACF2909D5B400C68747 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDE8ACE2909D5B400C68747 /* Builder.swift */; };
+		9FDE8AD12909D61300C68747 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDE8AD02909D61300C68747 /* Router.swift */; };
+		9FDE8ADA2909D6DF00C68747 /* StartGamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDE8AD92909D6DF00C68747 /* StartGamePresenter.swift */; };
+		9FDE8ADC2909D8F000C68747 /* StartGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDE8ADB2909D8F000C68747 /* StartGameViewController.swift */; };
+		9FDF91B6290F24CC007B47CA /* ShopPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDF91B5290F24CC007B47CA /* ShopPresenter.swift */; };
+		9FDF91B8290F26BB007B47CA /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDF91B7290F26BB007B47CA /* ShopViewController.swift */; };
+		9FDF91BC290F2904007B47CA /* ShopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDF91BB290F2904007B47CA /* ShopCollectionViewCell.swift */; };
+		9FE15A82291157BA00315725 /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE15A81291157BA00315725 /* CustomSegmentedControl.swift */; };
+		9FE6DF17291857FC00E62FB8 /* LoaderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6DF16291857FC00E62FB8 /* LoaderPresenter.swift */; };
+		9FE6DF1929191AAC00E62FB8 /* ShopManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6DF1829191AAC00E62FB8 /* ShopManager.swift */; };
+		9FE7BBEA2910118A00917527 /* OnboardingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FE7BBE92910118A00917527 /* OnboardingView.xib */; };
+		9FE7BBEC291011FB00917527 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE7BBEB291011FB00917527 /* OnboardingView.swift */; };
+		9FE7BBEE29111BE400917527 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE7BBED29111BE400917527 /* InfoViewController.swift */; };
+		9FE7BBF029111BF800917527 /* InfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE7BBEF29111BF800917527 /* InfoPresenter.swift */; };
 		9FF4ABB0290972A600090C9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4ABAF290972A600090C9B /* AppDelegate.swift */; };
 		9FF4ABB2290972A600090C9B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4ABB1290972A600090C9B /* GameScene.sks */; };
 		9FF4ABB4290972A600090C9B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4ABB3290972A600090C9B /* Actions.sks */; };
@@ -15,29 +68,67 @@
 		9FF4ABBB290972A600090C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4ABB9290972A600090C9B /* Main.storyboard */; };
 		9FF4ABBD290972AA00090C9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4ABBC290972AA00090C9B /* Assets.xcassets */; };
 		9FF4ABC0290972AA00090C9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4ABBE290972AA00090C9B /* LaunchScreen.storyboard */; };
-		9FF4ABCA290972AB00090C9B /* PlayAmoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4ABC9290972AB00090C9B /* PlayAmoTests.swift */; };
-		9FF4ABD4290972AB00090C9B /* PlayAmoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4ABD3290972AB00090C9B /* PlayAmoUITests.swift */; };
-		9FF4ABD6290972AB00090C9B /* PlayAmoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4ABD5290972AB00090C9B /* PlayAmoUITestsLaunchTests.swift */; };
+		9FF4ABE62909C65000090C9B /* pingPong.json in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4ABE52909C65000090C9B /* pingPong.json */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		9FF4ABC6290972AB00090C9B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FF4ABA4290972A600090C9B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9FF4ABAB290972A600090C9B;
-			remoteInfo = PlayAmo;
-		};
-		9FF4ABD0290972AB00090C9B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FF4ABA4290972A600090C9B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9FF4ABAB290972A600090C9B;
-			remoteInfo = PlayAmo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		0745628A7394C9ABA72611E0 /* Pods-PlayAmo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayAmo.debug.xcconfig"; path = "Target Support Files/Pods-PlayAmo/Pods-PlayAmo.debug.xcconfig"; sourceTree = "<group>"; };
+		2152B3AC509BD9A4B49AD1A9 /* Pods_PlayAmo_PlayAmoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayAmo_PlayAmoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2F5988B19C6F4B78399880 /* Pods-PlayAmo-PlayAmoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayAmo-PlayAmoUITests.release.xcconfig"; path = "Target Support Files/Pods-PlayAmo-PlayAmoUITests/Pods-PlayAmo-PlayAmoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		748CD0BA8CE4C0DE6EBC2525 /* Pods-PlayAmo-PlayAmoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayAmo-PlayAmoUITests.debug.xcconfig"; path = "Target Support Files/Pods-PlayAmo-PlayAmoUITests/Pods-PlayAmo-PlayAmoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F056D60290A5F8C00AB7A84 /* GameSceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSceneManager.swift; sourceTree = "<group>"; };
+		9F056D63290A5FE400AB7A84 /* Touchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Touchable.swift; sourceTree = "<group>"; };
+		9F056D66290A618F00AB7A84 /* BallNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallNode.swift; sourceTree = "<group>"; };
+		9F056D69290AA77A00AB7A84 /* PhysicCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicCategory.swift; sourceTree = "<group>"; };
+		9F056D6D290B247200AB7A84 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
+		9F056D71290B284400AB7A84 /* whoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whoosh.mp3; sourceTree = "<group>"; };
+		9F0C705D291808430045CC92 /* ConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		9F0C706029184B0C0045CC92 /* UIAplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAplication.swift; sourceTree = "<group>"; };
+		9F0C7063291853A10045CC92 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		9F2A37DB291A5D4A00DCF3F5 /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		9F2A37DD291A62AC00DCF3F5 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		9F2A37E1291A757900DCF3F5 /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		9F2A37E3291A784600DCF3F5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9F441CCA291B9D7F008CBE0C /* WaitingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WaitingView.xib; sourceTree = "<group>"; };
+		9F441CCC291B9EE6008CBE0C /* WaitingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingView.swift; sourceTree = "<group>"; };
+		9F441CCF291BCDFB008CBE0C /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		9F4B869F291B09A100665E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9F5A0DF72917D6B7009F2593 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		9F5D642E2917BFF400937136 /* GameOverView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameOverView.xib; sourceTree = "<group>"; };
+		9F5F061E291AD614007D7F21 /* BonusPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusPresenter.swift; sourceTree = "<group>"; };
+		9F5F0620291AD62C007D7F21 /* BonusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusViewController.swift; sourceTree = "<group>"; };
+		9F5F0622291ADAE0007D7F21 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		9F7AED8D291951BA00DE3C95 /* winSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winSound.mp3; sourceTree = "<group>"; };
+		9F7AED8E291951BB00DE3C95 /* failureSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = failureSound.mp3; sourceTree = "<group>"; };
+		9F7AED92291A590C00DE3C95 /* BuyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuyView.xib; sourceTree = "<group>"; };
+		9F7AED93291A590C00DE3C95 /* BuyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyView.swift; sourceTree = "<group>"; };
+		9F944947290FC5C900AB4FB0 /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
+		9FA34D0C2909DE75000FC589 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		9FA34D0E290A5066000FC589 /* GamePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePresenter.swift; sourceTree = "<group>"; };
+		9FA34D13290A57D2000FC589 /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
+		9FA34D15290A5824000FC589 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9FA34D17290A5856000FC589 /* SliderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTableViewCell.swift; sourceTree = "<group>"; };
+		9FA34D19290A5869000FC589 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		9FCB8497291BFC3800A5AF76 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		9FCC63A2291526E100DD0403 /* pongsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pongsound.mp3; sourceTree = "<group>"; };
+		9FCC63A429152A1100DD0403 /* waterSplash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waterSplash.mp3; sourceTree = "<group>"; };
+		9FCC63A629152B4600DD0403 /* waterSplosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waterSplosh.mp3; sourceTree = "<group>"; };
+		9FCC63A8291533F000DD0403 /* water-splash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "water-splash.mp3"; sourceTree = "<group>"; };
+		9FDE8ACC2909D54700C68747 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9FDE8ACE2909D5B400C68747 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		9FDE8AD02909D61300C68747 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		9FDE8AD92909D6DF00C68747 /* StartGamePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGamePresenter.swift; sourceTree = "<group>"; };
+		9FDE8ADB2909D8F000C68747 /* StartGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameViewController.swift; sourceTree = "<group>"; };
+		9FDF91B5290F24CC007B47CA /* ShopPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopPresenter.swift; sourceTree = "<group>"; };
+		9FDF91B7290F26BB007B47CA /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		9FDF91BB290F2904007B47CA /* ShopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCollectionViewCell.swift; sourceTree = "<group>"; };
+		9FE15A81291157BA00315725 /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		9FE6DF16291857FC00E62FB8 /* LoaderPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderPresenter.swift; sourceTree = "<group>"; };
+		9FE6DF1829191AAC00E62FB8 /* ShopManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopManager.swift; sourceTree = "<group>"; };
+		9FE7BBE92910118A00917527 /* OnboardingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnboardingView.xib; sourceTree = "<group>"; };
+		9FE7BBEB291011FB00917527 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		9FE7BBED29111BE400917527 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		9FE7BBEF29111BF800917527 /* InfoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPresenter.swift; sourceTree = "<group>"; };
 		9FF4ABAC290972A600090C9B /* PlayAmo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayAmo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF4ABAF290972A600090C9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FF4ABB1290972A600090C9B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -47,11 +138,12 @@
 		9FF4ABBA290972A600090C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FF4ABBC290972AA00090C9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FF4ABBF290972AA00090C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9FF4ABC5290972AB00090C9B /* PlayAmoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayAmoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FF4ABC9290972AB00090C9B /* PlayAmoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAmoTests.swift; sourceTree = "<group>"; };
-		9FF4ABCF290972AB00090C9B /* PlayAmoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayAmoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FF4ABD3290972AB00090C9B /* PlayAmoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAmoUITests.swift; sourceTree = "<group>"; };
-		9FF4ABD5290972AB00090C9B /* PlayAmoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAmoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9FF4ABE52909C65000090C9B /* pingPong.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pingPong.json; sourceTree = "<group>"; };
+		A9A16DE05AA09F9B20F76176 /* Pods-PlayAmoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayAmoTests.release.xcconfig"; path = "Target Support Files/Pods-PlayAmoTests/Pods-PlayAmoTests.release.xcconfig"; sourceTree = "<group>"; };
+		AED5966145F6C09E697AC3C5 /* Pods_PlayAmoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayAmoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1C1D9A1026D0A4139A592D /* Pods-PlayAmoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayAmoTests.debug.xcconfig"; path = "Target Support Files/Pods-PlayAmoTests/Pods-PlayAmoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E508DFDD09883FEA4FD535BC /* Pods_PlayAmo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayAmo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61644EB4407465E584E0ACC /* Pods-PlayAmo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayAmo.release.xcconfig"; path = "Target Support Files/Pods-PlayAmo/Pods-PlayAmo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,33 +151,408 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FF4ABC2290972AB00090C9B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FF4ABCC290972AB00090C9B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				65DFC716729D4A6B7D3D1E07 /* Pods_PlayAmo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9087C74F168967FE49FA943D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E508DFDD09883FEA4FD535BC /* Pods_PlayAmo.framework */,
+				2152B3AC509BD9A4B49AD1A9 /* Pods_PlayAmo_PlayAmoUITests.framework */,
+				AED5966145F6C09E697AC3C5 /* Pods_PlayAmoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F056D5F290A5F2000AB7A84 /* GameManager */ = {
+			isa = PBXGroup;
+			children = (
+				9F056D60290A5F8C00AB7A84 /* GameSceneManager.swift */,
+			);
+			path = GameManager;
+			sourceTree = "<group>";
+		};
+		9F056D62290A5FCE00AB7A84 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9F056D63290A5FE400AB7A84 /* Touchable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9F056D65290A616B00AB7A84 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				9F056D66290A618F00AB7A84 /* BallNode.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		9F056D68290AA75100AB7A84 /* PhysicCategory */ = {
+			isa = PBXGroup;
+			children = (
+				9F056D69290AA77A00AB7A84 /* PhysicCategory.swift */,
+			);
+			path = PhysicCategory;
+			sourceTree = "<group>";
+		};
+		9F056D6B290B245500AB7A84 /* lottie */ = {
+			isa = PBXGroup;
+			children = (
+				9FF4ABE52909C65000090C9B /* pingPong.json */,
+			);
+			path = lottie;
+			sourceTree = "<group>";
+		};
+		9F056D6C290B245F00AB7A84 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9F056D6D290B247200AB7A84 /* backgroundMusic.mp3 */,
+				9F7AED8E291951BB00DE3C95 /* failureSound.mp3 */,
+				9F7AED8D291951BA00DE3C95 /* winSound.mp3 */,
+				9FCC63A2291526E100DD0403 /* pongsound.mp3 */,
+				9FCC63A8291533F000DD0403 /* water-splash.mp3 */,
+				9FCC63A629152B4600DD0403 /* waterSplosh.mp3 */,
+				9FCC63A429152A1100DD0403 /* waterSplash.mp3 */,
+				9F056D71290B284400AB7A84 /* whoosh.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		9F0C705F29184ADD0045CC92 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9F0C706029184B0C0045CC92 /* UIAplication.swift */,
+				9F2A37DD291A62AC00DCF3F5 /* UIView.swift */,
+				9F5F0622291ADAE0007D7F21 /* Date.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9F0C70622918532D0045CC92 /* Loader Screen */ = {
+			isa = PBXGroup;
+			children = (
+				9FE6DF14291857C700E62FB8 /* View */,
+				9FE6DF15291857CE00E62FB8 /* Presenter */,
+			);
+			path = "Loader Screen";
+			sourceTree = "<group>";
+		};
+		9F2A37DF291A740C00DCF3F5 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				9F2A37E1291A757900DCF3F5 /* HomeView.xib */,
+				9F2A37E3291A784600DCF3F5 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		9F3FA82A2917BFBB00921ABE /* GameOverView */ = {
+			isa = PBXGroup;
+			children = (
+				9F5D642E2917BFF400937136 /* GameOverView.xib */,
+				9F5A0DF72917D6B7009F2593 /* GameOverView.swift */,
+			);
+			path = GameOverView;
+			sourceTree = "<group>";
+		};
+		9F441CC9291B9D66008CBE0C /* WaitingView */ = {
+			isa = PBXGroup;
+			children = (
+				9F441CCA291B9D7F008CBE0C /* WaitingView.xib */,
+				9F441CCC291B9EE6008CBE0C /* WaitingView.swift */,
+			);
+			path = WaitingView;
+			sourceTree = "<group>";
+		};
+		9F441CCE291BCDBC008CBE0C /* Privacy Policy Screen */ = {
+			isa = PBXGroup;
+			children = (
+				9F441CCF291BCDFB008CBE0C /* PrivacyPolicyViewController.swift */,
+			);
+			path = "Privacy Policy Screen";
+			sourceTree = "<group>";
+		};
+		9F5F061B291AD5EA007D7F21 /* Bonus Screen */ = {
+			isa = PBXGroup;
+			children = (
+				9F5F061D291AD601007D7F21 /* View */,
+				9F5F061C291AD5F8007D7F21 /* Presenter */,
+			);
+			path = "Bonus Screen";
+			sourceTree = "<group>";
+		};
+		9F5F061C291AD5F8007D7F21 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9F5F061E291AD614007D7F21 /* BonusPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9F5F061D291AD601007D7F21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F5F0620291AD62C007D7F21 /* BonusViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F681EF229100B750056FE45 /* Info Screen */ = {
+			isa = PBXGroup;
+			children = (
+				9F681EF429100B8C0056FE45 /* View */,
+				9F681EF329100B860056FE45 /* Presenter */,
+			);
+			path = "Info Screen";
+			sourceTree = "<group>";
+		};
+		9F681EF329100B860056FE45 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9FE7BBEF29111BF800917527 /* InfoPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9F681EF429100B8C0056FE45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F681EF529100B9E0056FE45 /* Onboarding Views */,
+				9FE7BBED29111BE400917527 /* InfoViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F681EF529100B9E0056FE45 /* Onboarding Views */ = {
+			isa = PBXGroup;
+			children = (
+				9FE7BBE92910118A00917527 /* OnboardingView.xib */,
+				9FE7BBEB291011FB00917527 /* OnboardingView.swift */,
+			);
+			path = "Onboarding Views";
+			sourceTree = "<group>";
+		};
+		9F7AED91291A590C00DE3C95 /* BuyView */ = {
+			isa = PBXGroup;
+			children = (
+				9F7AED92291A590C00DE3C95 /* BuyView.xib */,
+				9F7AED93291A590C00DE3C95 /* BuyView.swift */,
+			);
+			path = BuyView;
+			sourceTree = "<group>";
+		};
+		9FA34D072909DE35000FC589 /* Game Screen */ = {
+			isa = PBXGroup;
+			children = (
+				9FA34D092909DE42000FC589 /* View */,
+				9FA34D082909DE3B000FC589 /* Presenter */,
+			);
+			path = "Game Screen";
+			sourceTree = "<group>";
+		};
+		9FA34D082909DE3B000FC589 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9FA34D0E290A5066000FC589 /* GamePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9FA34D092909DE42000FC589 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FF4ABB7290972A600090C9B /* GameViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FA34D0A2909DE50000FC589 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9FA34D0C2909DE75000FC589 /* AudioManager.swift */,
+				9F0C705D291808430045CC92 /* ConnectionManager.swift */,
+				9FE6DF1829191AAC00E62FB8 /* ShopManager.swift */,
+				9F2A37DB291A5D4A00DCF3F5 /* Defaults.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		9FA34D10290A5799000FC589 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9FA34D12290A57BD000FC589 /* View */,
+				9FA34D11290A57B8000FC589 /* Presenter */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9FA34D11290A57B8000FC589 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9FA34D13290A57D2000FC589 /* SettingsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9FA34D12290A57BD000FC589 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FA34D15290A5824000FC589 /* SettingsViewController.swift */,
+				9FA34D17290A5856000FC589 /* SliderTableViewCell.swift */,
+				9FCB8497291BFC3800A5AF76 /* ButtonTableViewCell.swift */,
+				9FA34D19290A5869000FC589 /* SwitchTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FDE8ACB2909D4F300C68747 /* Infrostructure */ = {
+			isa = PBXGroup;
+			children = (
+				9F0C705F29184ADD0045CC92 /* Extension */,
+				9FDE8ACC2909D54700C68747 /* BaseViewController.swift */,
+				9FDE8ACE2909D5B400C68747 /* Builder.swift */,
+				9FDE8AD02909D61300C68747 /* Router.swift */,
+			);
+			path = Infrostructure;
+			sourceTree = "<group>";
+		};
+		9FDE8AD32909D68400C68747 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				9F056D68290AA75100AB7A84 /* PhysicCategory */,
+				9F056D65290A616B00AB7A84 /* Nodes */,
+				9F056D62290A5FCE00AB7A84 /* Protocols */,
+				9FDE8AD42909D69200C68747 /* Scene */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		9FDE8AD42909D69200C68747 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				9F056D5F290A5F2000AB7A84 /* GameManager */,
+				9FF4ABB1290972A600090C9B /* GameScene.sks */,
+				9FF4ABB3290972A600090C9B /* Actions.sks */,
+				9FF4ABB5290972A600090C9B /* GameScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		9FDE8AD52909D6A300C68747 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9F441CCE291BCDBC008CBE0C /* Privacy Policy Screen */,
+				9F5F061B291AD5EA007D7F21 /* Bonus Screen */,
+				9F0C70622918532D0045CC92 /* Loader Screen */,
+				9F681EF229100B750056FE45 /* Info Screen */,
+				9FDF91B2290F23CD007B47CA /* Shop Screen */,
+				9FA34D10290A5799000FC589 /* Settings */,
+				9FA34D072909DE35000FC589 /* Game Screen */,
+				9FDE8AD62909D6B400C68747 /* Start Scene */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9FDE8AD62909D6B400C68747 /* Start Scene */ = {
+			isa = PBXGroup;
+			children = (
+				9FDE8AD82909D6C200C68747 /* View */,
+				9FDE8AD72909D6BF00C68747 /* Presenter */,
+			);
+			path = "Start Scene";
+			sourceTree = "<group>";
+		};
+		9FDE8AD72909D6BF00C68747 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9FDE8AD92909D6DF00C68747 /* StartGamePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9FDE8AD82909D6C200C68747 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FDE8ADB2909D8F000C68747 /* StartGameViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FDF91B2290F23CD007B47CA /* Shop Screen */ = {
+			isa = PBXGroup;
+			children = (
+				9FDF91B4290F23E1007B47CA /* View */,
+				9FDF91B3290F23D8007B47CA /* Presenter */,
+			);
+			path = "Shop Screen";
+			sourceTree = "<group>";
+		};
+		9FDF91B3290F23D8007B47CA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9FDF91B5290F24CC007B47CA /* ShopPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9FDF91B4290F23E1007B47CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FDF91B7290F26BB007B47CA /* ShopViewController.swift */,
+				9FDF91BB290F2904007B47CA /* ShopCollectionViewCell.swift */,
+				9F944947290FC5C900AB4FB0 /* UPCarouselFlowLayout.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FE15A7F2911578300315725 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F441CC9291B9D66008CBE0C /* WaitingView */,
+				9F2A37DF291A740C00DCF3F5 /* HomeView */,
+				9F7AED91291A590C00DE3C95 /* BuyView */,
+				9F3FA82A2917BFBB00921ABE /* GameOverView */,
+				9FE15A802911579500315725 /* CustomSegmentedControl */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FE15A802911579500315725 /* CustomSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				9FE15A81291157BA00315725 /* CustomSegmentedControl.swift */,
+			);
+			path = CustomSegmentedControl;
+			sourceTree = "<group>";
+		};
+		9FE6DF14291857C700E62FB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F0C7063291853A10045CC92 /* LoaderViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FE6DF15291857CE00E62FB8 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9FE6DF16291857FC00E62FB8 /* LoaderPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		9FF4ABA3290972A600090C9B = {
 			isa = PBXGroup;
 			children = (
 				9FF4ABAE290972A600090C9B /* PlayAmo */,
-				9FF4ABC8290972AB00090C9B /* PlayAmoTests */,
-				9FF4ABD2290972AB00090C9B /* PlayAmoUITests */,
 				9FF4ABAD290972A600090C9B /* Products */,
+				B38E4F65329FF7296B3E4E57 /* Pods */,
+				9087C74F168967FE49FA943D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,8 +560,6 @@
 			isa = PBXGroup;
 			children = (
 				9FF4ABAC290972A600090C9B /* PlayAmo.app */,
-				9FF4ABC5290972AB00090C9B /* PlayAmoTests.xctest */,
-				9FF4ABCF290972AB00090C9B /* PlayAmoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,33 +567,41 @@
 		9FF4ABAE290972A600090C9B /* PlayAmo */ = {
 			isa = PBXGroup;
 			children = (
+				9F4B869F291B09A100665E3D /* Info.plist */,
 				9FF4ABAF290972A600090C9B /* AppDelegate.swift */,
-				9FF4ABB1290972A600090C9B /* GameScene.sks */,
-				9FF4ABB3290972A600090C9B /* Actions.sks */,
-				9FF4ABB5290972A600090C9B /* GameScene.swift */,
-				9FF4ABB7290972A600090C9B /* GameViewController.swift */,
+				9FDE8AD32909D68400C68747 /* Game */,
+				9FDE8ACB2909D4F300C68747 /* Infrostructure */,
+				9FE15A7F2911578300315725 /* View */,
+				9FDE8AD52909D6A300C68747 /* Screens */,
+				9FF4ABE42909C60600090C9B /* Resourses */,
 				9FF4ABB9290972A600090C9B /* Main.storyboard */,
 				9FF4ABBC290972AA00090C9B /* Assets.xcassets */,
+				9FA34D0A2909DE50000FC589 /* Managers */,
 				9FF4ABBE290972AA00090C9B /* LaunchScreen.storyboard */,
 			);
 			path = PlayAmo;
 			sourceTree = "<group>";
 		};
-		9FF4ABC8290972AB00090C9B /* PlayAmoTests */ = {
+		9FF4ABE42909C60600090C9B /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
-				9FF4ABC9290972AB00090C9B /* PlayAmoTests.swift */,
+				9F056D6C290B245F00AB7A84 /* Sounds */,
+				9F056D6B290B245500AB7A84 /* lottie */,
 			);
-			path = PlayAmoTests;
+			path = Resourses;
 			sourceTree = "<group>";
 		};
-		9FF4ABD2290972AB00090C9B /* PlayAmoUITests */ = {
+		B38E4F65329FF7296B3E4E57 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9FF4ABD3290972AB00090C9B /* PlayAmoUITests.swift */,
-				9FF4ABD5290972AB00090C9B /* PlayAmoUITestsLaunchTests.swift */,
+				0745628A7394C9ABA72611E0 /* Pods-PlayAmo.debug.xcconfig */,
+				F61644EB4407465E584E0ACC /* Pods-PlayAmo.release.xcconfig */,
+				748CD0BA8CE4C0DE6EBC2525 /* Pods-PlayAmo-PlayAmoUITests.debug.xcconfig */,
+				3F2F5988B19C6F4B78399880 /* Pods-PlayAmo-PlayAmoUITests.release.xcconfig */,
+				BA1C1D9A1026D0A4139A592D /* Pods-PlayAmoTests.debug.xcconfig */,
+				A9A16DE05AA09F9B20F76176 /* Pods-PlayAmoTests.release.xcconfig */,
 			);
-			path = PlayAmoUITests;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +611,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FF4ABD9290972AB00090C9B /* Build configuration list for PBXNativeTarget "PlayAmo" */;
 			buildPhases = (
+				DC27CD4FD68CA9ED2E5F86E9 /* [CP] Check Pods Manifest.lock */,
 				9FF4ABA8290972A600090C9B /* Sources */,
 				9FF4ABA9290972A600090C9B /* Frameworks */,
 				9FF4ABAA290972A600090C9B /* Resources */,
+				2A4F2A7E53CBBE6F5A44A608 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -150,42 +625,6 @@
 			productName = PlayAmo;
 			productReference = 9FF4ABAC290972A600090C9B /* PlayAmo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		9FF4ABC4290972AB00090C9B /* PlayAmoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9FF4ABDC290972AB00090C9B /* Build configuration list for PBXNativeTarget "PlayAmoTests" */;
-			buildPhases = (
-				9FF4ABC1290972AB00090C9B /* Sources */,
-				9FF4ABC2290972AB00090C9B /* Frameworks */,
-				9FF4ABC3290972AB00090C9B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9FF4ABC7290972AB00090C9B /* PBXTargetDependency */,
-			);
-			name = PlayAmoTests;
-			productName = PlayAmoTests;
-			productReference = 9FF4ABC5290972AB00090C9B /* PlayAmoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9FF4ABCE290972AB00090C9B /* PlayAmoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9FF4ABDF290972AB00090C9B /* Build configuration list for PBXNativeTarget "PlayAmoUITests" */;
-			buildPhases = (
-				9FF4ABCB290972AB00090C9B /* Sources */,
-				9FF4ABCC290972AB00090C9B /* Frameworks */,
-				9FF4ABCD290972AB00090C9B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9FF4ABD1290972AB00090C9B /* PBXTargetDependency */,
-			);
-			name = PlayAmoUITests;
-			productName = PlayAmoUITests;
-			productReference = 9FF4ABCF290972AB00090C9B /* PlayAmoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -199,14 +638,6 @@
 				TargetAttributes = {
 					9FF4ABAB290972A600090C9B = {
 						CreatedOnToolsVersion = 14.0.1;
-					};
-					9FF4ABC4290972AB00090C9B = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = 9FF4ABAB290972A600090C9B;
-					};
-					9FF4ABCE290972AB00090C9B = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = 9FF4ABAB290972A600090C9B;
 					};
 				};
 			};
@@ -224,8 +655,6 @@
 			projectRoot = "";
 			targets = (
 				9FF4ABAB290972A600090C9B /* PlayAmo */,
-				9FF4ABC4290972AB00090C9B /* PlayAmoTests */,
-				9FF4ABCE290972AB00090C9B /* PlayAmoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,72 +664,123 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE7BBEA2910118A00917527 /* OnboardingView.xib in Resources */,
+				9F056D72290B284400AB7A84 /* whoosh.mp3 in Resources */,
+				9F056D6E290B247200AB7A84 /* backgroundMusic.mp3 in Resources */,
+				9F7AED8F291951BB00DE3C95 /* winSound.mp3 in Resources */,
+				9FCC63A9291533F000DD0403 /* water-splash.mp3 in Resources */,
 				9FF4ABBB290972A600090C9B /* Main.storyboard in Resources */,
+				9FCC63A3291526E100DD0403 /* pongsound.mp3 in Resources */,
+				9FCC63A729152B4600DD0403 /* waterSplosh.mp3 in Resources */,
 				9FF4ABB2290972A600090C9B /* GameScene.sks in Resources */,
 				9FF4ABBD290972AA00090C9B /* Assets.xcassets in Resources */,
+				9FF4ABE62909C65000090C9B /* pingPong.json in Resources */,
+				9F2A37E2291A757900DCF3F5 /* HomeView.xib in Resources */,
+				9F441CCB291B9D7F008CBE0C /* WaitingView.xib in Resources */,
 				9FF4ABC0290972AA00090C9B /* LaunchScreen.storyboard in Resources */,
+				9F5D642F2917BFF400937136 /* GameOverView.xib in Resources */,
+				9FCC63A529152A1100DD0403 /* waterSplash.mp3 in Resources */,
 				9FF4ABB4290972A600090C9B /* Actions.sks in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FF4ABC3290972AB00090C9B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FF4ABCD290972AB00090C9B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9F7AED94291A590D00DE3C95 /* BuyView.xib in Resources */,
+				9F7AED90291951BB00DE3C95 /* failureSound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A4F2A7E53CBBE6F5A44A608 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayAmo/Pods-PlayAmo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayAmo/Pods-PlayAmo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlayAmo/Pods-PlayAmo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC27CD4FD68CA9ED2E5F86E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayAmo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9FF4ABA8290972A600090C9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE6DF17291857FC00E62FB8 /* LoaderPresenter.swift in Sources */,
+				9FE6DF1929191AAC00E62FB8 /* ShopManager.swift in Sources */,
 				9FF4ABB6290972A600090C9B /* GameScene.swift in Sources */,
+				9F056D6A290AA77A00AB7A84 /* PhysicCategory.swift in Sources */,
+				9F056D64290A5FE400AB7A84 /* Touchable.swift in Sources */,
+				9FA34D18290A5856000FC589 /* SliderTableViewCell.swift in Sources */,
+				9FDE8ACD2909D54700C68747 /* BaseViewController.swift in Sources */,
 				9FF4ABB8290972A600090C9B /* GameViewController.swift in Sources */,
+				9FDE8ADA2909D6DF00C68747 /* StartGamePresenter.swift in Sources */,
+				9F2A37E4291A784600DCF3F5 /* HomeView.swift in Sources */,
 				9FF4ABB0290972A600090C9B /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FF4ABC1290972AB00090C9B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FF4ABCA290972AB00090C9B /* PlayAmoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FF4ABCB290972AB00090C9B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FF4ABD6290972AB00090C9B /* PlayAmoUITestsLaunchTests.swift in Sources */,
-				9FF4ABD4290972AB00090C9B /* PlayAmoUITests.swift in Sources */,
+				9F2A37DE291A62AC00DCF3F5 /* UIView.swift in Sources */,
+				9FDE8AD12909D61300C68747 /* Router.swift in Sources */,
+				9F2A37DC291A5D4A00DCF3F5 /* Defaults.swift in Sources */,
+				9F5F0621291AD62C007D7F21 /* BonusViewController.swift in Sources */,
+				9FDF91BC290F2904007B47CA /* ShopCollectionViewCell.swift in Sources */,
+				9FA34D0D2909DE75000FC589 /* AudioManager.swift in Sources */,
+				9FA34D14290A57D2000FC589 /* SettingsPresenter.swift in Sources */,
+				9FA34D1A290A5869000FC589 /* SwitchTableViewCell.swift in Sources */,
+				9FDF91B8290F26BB007B47CA /* ShopViewController.swift in Sources */,
+				9F0C706129184B0C0045CC92 /* UIAplication.swift in Sources */,
+				9FDE8ACF2909D5B400C68747 /* Builder.swift in Sources */,
+				9FE7BBF029111BF800917527 /* InfoPresenter.swift in Sources */,
+				9FA34D0F290A5066000FC589 /* GamePresenter.swift in Sources */,
+				9F0C705E291808430045CC92 /* ConnectionManager.swift in Sources */,
+				9F056D61290A5F8C00AB7A84 /* GameSceneManager.swift in Sources */,
+				9F441CCD291B9EE6008CBE0C /* WaitingView.swift in Sources */,
+				9FDE8ADC2909D8F000C68747 /* StartGameViewController.swift in Sources */,
+				9F944948290FC5C900AB4FB0 /* UPCarouselFlowLayout.swift in Sources */,
+				9F056D67290A618F00AB7A84 /* BallNode.swift in Sources */,
+				9FA34D16290A5824000FC589 /* SettingsViewController.swift in Sources */,
+				9FE7BBEC291011FB00917527 /* OnboardingView.swift in Sources */,
+				9F0C7064291853A10045CC92 /* LoaderViewController.swift in Sources */,
+				9FCB8498291BFC3800A5AF76 /* ButtonTableViewCell.swift in Sources */,
+				9FE15A82291157BA00315725 /* CustomSegmentedControl.swift in Sources */,
+				9F441CD0291BCDFB008CBE0C /* PrivacyPolicyViewController.swift in Sources */,
+				9FE7BBEE29111BE400917527 /* InfoViewController.swift in Sources */,
+				9F5F0623291ADAE0007D7F21 /* Date.swift in Sources */,
+				9F5A0DF82917D6B7009F2593 /* GameOverView.swift in Sources */,
+				9F5F061F291AD614007D7F21 /* BonusPresenter.swift in Sources */,
+				9F7AED95291A590D00DE3C95 /* BuyView.swift in Sources */,
+				9FDF91B6290F24CC007B47CA /* ShopPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9FF4ABC7290972AB00090C9B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9FF4ABAB290972A600090C9B /* PlayAmo */;
-			targetProxy = 9FF4ABC6290972AB00090C9B /* PBXContainerItemProxy */;
-		};
-		9FF4ABD1290972AB00090C9B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9FF4ABAB290972A600090C9B /* PlayAmo */;
-			targetProxy = 9FF4ABD0290972AB00090C9B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9FF4ABB9290972A600090C9B /* Main.storyboard */ = {
@@ -372,7 +852,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -426,7 +906,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -438,26 +918,33 @@
 		};
 		9FF4ABDA290972AB00090C9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0745628A7394C9ABA72611E0 /* Pods-PlayAmo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62C374FX49;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = L5246NTAUU;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlayAmo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = LIGHT;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.galasoft.PlayAmo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariemurray.playamo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = PlayamoProvisioningProfile;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,105 +953,36 @@
 		};
 		9FF4ABDB290972AB00090C9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F61644EB4407465E584E0ACC /* Pods-PlayAmo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62C374FX49;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = L5246NTAUU;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlayAmo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = LIGHT;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.galasoft.PlayAmo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariemurray.playamo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = PlayamoProvisioningProfile;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		9FF4ABDD290972AB00090C9B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62C374FX49;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.galasoft.PlayAmoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayAmo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlayAmo";
-			};
-			name = Debug;
-		};
-		9FF4ABDE290972AB00090C9B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62C374FX49;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.galasoft.PlayAmoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayAmo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlayAmo";
-			};
-			name = Release;
-		};
-		9FF4ABE0290972AB00090C9B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62C374FX49;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.galasoft.PlayAmoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PlayAmo;
-			};
-			name = Debug;
-		};
-		9FF4ABE1290972AB00090C9B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62C374FX49;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.galasoft.PlayAmoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PlayAmo;
 			};
 			name = Release;
 		};
@@ -585,24 +1003,6 @@
 			buildConfigurations = (
 				9FF4ABDA290972AB00090C9B /* Debug */,
 				9FF4ABDB290972AB00090C9B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9FF4ABDC290972AB00090C9B /* Build configuration list for PBXNativeTarget "PlayAmoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9FF4ABDD290972AB00090C9B /* Debug */,
-				9FF4ABDE290972AB00090C9B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9FF4ABDF290972AB00090C9B /* Build configuration list for PBXNativeTarget "PlayAmoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9FF4ABE0290972AB00090C9B /* Debug */,
-				9FF4ABE1290972AB00090C9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

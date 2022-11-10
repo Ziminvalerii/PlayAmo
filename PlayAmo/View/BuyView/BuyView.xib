@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BuyView" customModule="PlayAmo" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelButton" destination="8US-7A-fcN" id="UXW-dH-25t"/>
+                <outlet property="confirmButton" destination="DOY-bu-l3n" id="vM3-pU-Oan"/>
+                <outlet property="titleLabel" destination="nKH-po-ne5" id="E6t-5N-v7b"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you sure you want to buy this item ? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nKH-po-ne5">
+                    <rect key="frame" x="32" y="23.999999999999996" width="136" height="51.666666666666657"/>
+                    <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fjn-49-QwL">
+                    <rect key="frame" x="99.666666666666671" y="114" width="1" height="36"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="Dc2-IW-DPo"/>
+                        <constraint firstAttribute="width" constant="1" id="jJq-tW-azN"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zkd-F3-DEE">
+                    <rect key="frame" x="0.0" y="113" width="200" height="1"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="BIb-zz-Ljw"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DOY-bu-l3n">
+                    <rect key="frame" x="0.0" y="114" width="99.666666666666671" height="36"/>
+                    <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Confirm">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="confirmButtonPressed:" destination="-1" eventType="touchUpInside" id="vEV-c8-vYn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8US-7A-fcN">
+                    <rect key="frame" x="100.66666666666669" y="114" width="99.333333333333314" height="36"/>
+                    <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Cancel">
+                        <color key="titleColor" systemColor="systemRedColor"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelButtonPressed:" destination="-1" eventType="touchUpInside" id="9QY-IH-lbm"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.1803921568627451" green="0.46274509803921571" blue="0.18823529411764706" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="DOY-bu-l3n" secondAttribute="bottom" id="BkH-tC-2c0"/>
+                <constraint firstItem="fjn-49-QwL" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Dio-OE-BCF"/>
+                <constraint firstItem="fjn-49-QwL" firstAttribute="top" secondItem="zkd-F3-DEE" secondAttribute="bottom" id="JQP-xi-ule"/>
+                <constraint firstAttribute="bottom" secondItem="fjn-49-QwL" secondAttribute="bottom" id="Lex-dC-6KR"/>
+                <constraint firstItem="DOY-bu-l3n" firstAttribute="top" secondItem="zkd-F3-DEE" secondAttribute="bottom" id="RGJ-F4-bsE"/>
+                <constraint firstItem="8US-7A-fcN" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="SwI-mk-yHr"/>
+                <constraint firstItem="nKH-po-ne5" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="32" id="ZW6-8n-vUD"/>
+                <constraint firstItem="fjn-49-QwL" firstAttribute="leading" secondItem="DOY-bu-l3n" secondAttribute="trailing" id="b26-V0-dbi"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="8US-7A-fcN" secondAttribute="bottom" id="bkl-R1-mWY"/>
+                <constraint firstItem="8US-7A-fcN" firstAttribute="top" secondItem="zkd-F3-DEE" secondAttribute="bottom" id="cDu-cv-5GH"/>
+                <constraint firstItem="8US-7A-fcN" firstAttribute="leading" secondItem="fjn-49-QwL" secondAttribute="trailing" id="hS1-Ev-fyJ"/>
+                <constraint firstItem="zkd-F3-DEE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="o7J-Zd-JE1"/>
+                <constraint firstItem="nKH-po-ne5" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="rre-F7-Pzt"/>
+                <constraint firstItem="DOY-bu-l3n" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="teV-op-edw"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="nKH-po-ne5" secondAttribute="trailing" constant="32" id="veV-lk-cqc"/>
+                <constraint firstItem="nKH-po-ne5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="24" id="vzH-9X-veg"/>
+                <constraint firstAttribute="trailing" secondItem="zkd-F3-DEE" secondAttribute="trailing" id="x9f-IE-pRp"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="21.538461538461537" y="20.616113744075829"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
